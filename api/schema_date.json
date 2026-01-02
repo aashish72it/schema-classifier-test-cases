@@ -1,0 +1,46 @@
+{
+  "type": "struct",
+  "fields": [
+    {
+      "name": "id",
+      "type": "integer",
+      "nullable": false,
+      "metadata": {}
+    },
+    {
+      "name": "name",
+      "type": "string",
+      "nullable": false,
+      "metadata": {}
+    },
+    {
+      "name": "amount",
+      "type": "double",
+      "nullable": false,
+      "metadata": {}
+    },
+    {
+      "name": "txn_date",
+      "type": "date",
+      "nullable": false,
+      "metadata": {}
+    },
+    {
+      "name": "test_timestamp",
+      "type": "timestamp",
+      "nullable": false,
+      "metadata": {}
+    },
+    {
+      "name": "dec_test",
+      "type": "double",
+      "nullable": false,
+      "metadata": {}
+    }
+  ],
+  "meta": {
+    "file_name": "sales_20250101.csv",
+    "file_name_regex": "^sales_\\d{8}\\.csv$",
+    "file_name_pattern": "sales_*.csv"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "struct",
+  "fields": [
+    {
+      "name": "station",
+      "type": "string",
+      "nullable": true,
+      "metadata": {}
+    },
+    {
+      "name": "time",
+      "type": "integer",
+      "nullable": true,
+      "metadata": {}
+    },
+    {
+      "name": "temp",
+      "type": "integer",
+      "nullable": true,
+      "metadata": {}
+    }
+  ],
+  "meta": {
+    "file_name": "weather.avro",
+    "file_name_regex": "^weather\\.avro$",
+    "file_name_pattern": "weather.avro"
+  }
+}

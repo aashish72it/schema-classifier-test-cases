@@ -1,0 +1,34 @@
+{
+  "type": "struct",
+  "fields": [
+    {
+      "name": "first_name",
+      "type": "string",
+      "nullable": true,
+      "metadata": {}
+    },
+    {
+      "name": "last_name",
+      "type": "string",
+      "nullable": true,
+      "metadata": {}
+    },
+    {
+      "name": "country",
+      "type": "string",
+      "nullable": true,
+      "metadata": {}
+    },
+    {
+      "name": "continent",
+      "type": "string",
+      "nullable": true,
+      "metadata": {}
+    }
+  ],
+  "meta": {
+    "file_name": "people_countries_delta_dask",
+    "file_name_regex": "^people_countries_delta_dask$",
+    "file_name_pattern": "people_countries_delta_dask"
+  }
+}

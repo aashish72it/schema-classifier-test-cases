@@ -1,0 +1,22 @@
+{
+  "type": "struct",
+  "fields": [
+    {
+      "name": "id",
+      "type": "integer",
+      "nullable": false,
+      "metadata": {}
+    },
+    {
+      "name": "ts",
+      "type": "timestamp",
+      "nullable": false,
+      "metadata": {}
+    }
+  ],
+  "meta": {
+    "file_name": "events.ndjson",
+    "file_name_regex": "^events\\.ndjson$",
+    "file_name_pattern": "events.ndjson"
+  }
+}
