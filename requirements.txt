@@ -1,1 +1,1 @@
-schema-classifier==0.1.0
+schema-classifier==0.1.1
