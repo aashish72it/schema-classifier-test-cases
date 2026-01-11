@@ -1,28 +1,18 @@
-{
-  "type": "struct",
-  "fields": [
-    {
-      "name": "id",
-      "type": "integer",
-      "nullable": false,
-      "metadata": {}
-    },
-    {
-      "name": "name",
-      "type": "string",
-      "nullable": false,
-      "metadata": {}
-    },
-    {
-      "name": "amount",
-      "type": "integer",
-      "nullable": false,
-      "metadata": {}
-    }
-  ],
-  "meta": {
-    "file_name": "sales_header.csv",
-    "file_name_regex": "^sales_header\\.csv$",
-    "file_name_pattern": "sales_header.csv"
-  }
-}
+type: struct
+fields:
+- name: id
+  type: integer
+  nullable: false
+  metadata: {}
+- name: name
+  type: string
+  nullable: false
+  metadata: {}
+- name: amount
+  type: integer
+  nullable: false
+  metadata: {}
+meta:
+  file_name: sales_header.csv
+  file_name_regex: ^sales_header\.csv$
+  file_name_pattern: sales_header.csv

@@ -1,12 +1,14 @@
-{
-  "type": "struct",
-  "fields": [],
-  "meta": {
-    "file_name": "TestOrcFile.testDate1900.orc",
-    "file_name_regex": "^TestOrcFile\\.testDate\\d{4}\\.orc$",
-    "file_name_pattern": "TestOrcFile.testDate*.orc"
-  },
-  "warnings": [
-    "pyorc not available; install with pip install -e .[orc]"
-  ]
-}
+type: struct
+fields:
+- name: time
+  type: string
+  nullable: true
+  metadata: {}
+- name: date
+  type: string
+  nullable: true
+  metadata: {}
+meta:
+  file_name: TestOrcFile.testDate1900.orc
+  file_name_regex: ^TestOrcFile\.testDate\d{4}\.orc$
+  file_name_pattern: TestOrcFile.testDate*.orc

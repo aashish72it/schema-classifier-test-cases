@@ -1,0 +1,4 @@
+Result: OK
+Common fields (order as in left): id, name, amount, txn_date, test_timestamp, dec_test
+Left-only:   (none)
+Right-only:  (none)

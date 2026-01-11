@@ -17,17 +17,19 @@ pip install -r requiremements.txt
 
 ```bash
 
-## To test the command thru API. Below is the snippet for output for dict format and schema files are in api folder
-python tests\combine_run_schema.py
+## Execute the test scripts in following order to see the full potential. 
+
+## First run the schema detect from CLI & API
+python tests\combined_cli_detect.py
+python tests\combined_api_detect_write.py
+
+## Then run the schema verify from CLI & API to see the comparison between schema files generated via first 2 scripts
+python tests\combined_cli_verify.py
+python tests\combined_api_verify.py
+
+## Following scripts can be executed independent of above commands as they showcase the schema detect & verify functionality for pandas & spark dataframe and you won't need files generated thru above scripts.
+
+python tests\detect_df_schemas.py
+python tests\verify_df_schemas.py
 
 ```
-![alt text](image.png)
-
-
-```bash
-
-## To test the command thru CLI. Below is the snippet for output for dict format and schema files are in cli folder
-python tests\combined_cli.py
-
-```
-![alt text](image-1.png)

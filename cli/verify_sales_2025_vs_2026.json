@@ -1,0 +1,20 @@
+{
+  "ok": true,
+  "summary": "success",
+  "details": {
+    "warnings": [],
+    "mismatches": [],
+    "field_summary": {
+      "matched_fields": [
+        "id",
+        "name",
+        "amount",
+        "txn_date",
+        "test_timestamp",
+        "dec_test"
+      ],
+      "left_only_fields": [],
+      "right_only_fields": []
+    }
+  }
+}

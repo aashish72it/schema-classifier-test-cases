@@ -1,70 +1,46 @@
-{
-  "type": "struct",
-  "fields": [
-    {
-      "name": "carat",
-      "type": "double",
-      "nullable": true,
-      "metadata": {}
-    },
-    {
-      "name": "depth",
-      "type": "double",
-      "nullable": true,
-      "metadata": {}
-    },
-    {
-      "name": "table",
-      "type": "double",
-      "nullable": true,
-      "metadata": {}
-    },
-    {
-      "name": "price",
-      "type": "integer",
-      "nullable": true,
-      "metadata": {}
-    },
-    {
-      "name": "x",
-      "type": "double",
-      "nullable": true,
-      "metadata": {}
-    },
-    {
-      "name": "y",
-      "type": "double",
-      "nullable": true,
-      "metadata": {}
-    },
-    {
-      "name": "z",
-      "type": "double",
-      "nullable": true,
-      "metadata": {}
-    },
-    {
-      "name": "cut",
-      "type": "string",
-      "nullable": true,
-      "metadata": {}
-    },
-    {
-      "name": "color",
-      "type": "string",
-      "nullable": true,
-      "metadata": {}
-    },
-    {
-      "name": "clarity",
-      "type": "string",
-      "nullable": true,
-      "metadata": {}
-    }
-  ],
-  "meta": {
-    "file_name": "v0.7.1.all-named-index.parquet",
-    "file_name_regex": "^v\\d{1}\\.7\\.1\\.all\\-named\\-index\\.parquet$",
-    "file_name_pattern": "v*.7.1.all-named-index.parquet"
-  }
-}
+type: struct
+fields:
+- name: carat
+  type: double
+  nullable: true
+  metadata: {}
+- name: depth
+  type: double
+  nullable: true
+  metadata: {}
+- name: table
+  type: double
+  nullable: true
+  metadata: {}
+- name: price
+  type: integer
+  nullable: true
+  metadata: {}
+- name: x
+  type: double
+  nullable: true
+  metadata: {}
+- name: y
+  type: double
+  nullable: true
+  metadata: {}
+- name: z
+  type: double
+  nullable: true
+  metadata: {}
+- name: cut
+  type: string
+  nullable: true
+  metadata: {}
+- name: color
+  type: string
+  nullable: true
+  metadata: {}
+- name: clarity
+  type: string
+  nullable: true
+  metadata: {}
+meta:
+  file_name: v0.7.1.all-named-index.parquet
+  file_name_regex: ^v\d{1}\.7\.1\.all\-named\-index\.parquet$
+  file_name_pattern: v*.7.1.all-named-index.parquet

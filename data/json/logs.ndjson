@@ -1,0 +1,10 @@
+{"timestamp": "2026-01-02 17:02:52", "level": "ERROR", "message": "Timeout occurred while processing request", "user_id": "dave"}
+{"timestamp": "2026-01-02 17:07:52", "level": "ERROR", "message": "User logged out", "user_id": "dave"}
+{"timestamp": "2026-01-02 17:12:52", "level": "INFO", "message": "User logged in successfully", "user_id": "alice"}
+{"timestamp": "2026-01-02 17:17:52", "level": "INFO", "message": "Cache cleared", "user_id": "charlie", "metadata": {"ip": "192.168.0.9", "session": "sess-6627"}}
+{"timestamp": "2026-01-02 17:22:52", "level": "ERROR", "message": "Permission denied", "user_id": "charlie"}
+{"timestamp": "2026-01-02 17:27:52", "level": "WARN", "message": "Timeout occurred while processing request", "user_id": "charlie", "metadata": {"ip": "192.168.0.140", "session": "sess-9275"}}
+{"timestamp": "2026-01-02 17:32:52", "level": "ERROR", "message": "Timeout occurred while processing request", "user_id": "bob", "metadata": {"ip": "192.168.0.110", "session": "sess-9474"}}
+{"timestamp": "2026-01-02 17:37:52", "level": "WARN", "message": "Disk space running low", "user_id": "dave", "metadata": {"ip": "192.168.0.218", "session": "sess-7552"}}
+{"timestamp": "2026-01-02 17:42:52", "level": "ERROR", "message": "Failed to fetch resource", "user_id": "bob", "metadata": {"ip": "192.168.0.52", "session": "sess-3598"}}
+{"timestamp": "2026-01-02 17:47:52", "level": "INFO", "message": "Background job completed", "user_id": "dave"}

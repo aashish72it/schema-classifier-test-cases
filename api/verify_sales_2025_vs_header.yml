@@ -1,0 +1,43 @@
+ok: false
+summary: mismatch
+details:
+  warnings: []
+  mismatches:
+  - kind: fields
+    left:
+    - id
+    - name
+    - amount
+    - txn_date
+    - test_timestamp
+    - dec_test
+    right:
+    - id
+    - name
+    - amount
+  - kind: types
+    field: amount
+    left: double
+    right: integer
+  - kind: types
+    field: txn_date
+    left: date
+    right: None
+  - kind: types
+    field: test_timestamp
+    left: timestamp
+    right: None
+  - kind: types
+    field: dec_test
+    left: double
+    right: None
+  field_summary:
+    matched_fields:
+    - id
+    - name
+    - amount
+    left_only_fields:
+    - txn_date
+    - test_timestamp
+    - dec_test
+    right_only_fields: []

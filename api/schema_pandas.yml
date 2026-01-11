@@ -8,11 +8,13 @@ fields:
   type: string
   nullable: false
   metadata: {}
-- name: amount
-  type: integer
+- name: price
+  type: double
+  nullable: false
+  metadata: {}
+- name: active
+  type: boolean
   nullable: false
   metadata: {}
 meta:
-  file_name: sales_header.csv
-  file_name_regex: ^sales_header\.csv$
-  file_name_pattern: sales_header.csv
+  source: pandas_df

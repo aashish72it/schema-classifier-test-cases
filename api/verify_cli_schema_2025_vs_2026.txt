@@ -1,0 +1,8 @@
+Result: MISMATCH
+Common fields (order as in left): (none)
+Left-only:   time, date
+Right-only:  carat, depth, table, price, x, y, z, cut, color, clarity
+Mismatches:
+  - {'kind': 'fields', 'left': ['time', 'date'], 'right': ['carat', 'depth', 'table', 'price', 'x', 'y', 'z', 'cut', 'color', 'clarity']}
+  - {'kind': 'types', 'field': 'time', 'left': 'string', 'right': 'None'}
+  - {'kind': 'types', 'field': 'date', 'left': 'string', 'right': 'None'}

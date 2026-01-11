@@ -1,3 +1,22 @@
+"""
+Replicates CLI commands using pyschemaclassifier APIs.
+
+Original CLI commands:
+
+schema-detect data/csv/sales_header.csv
+schema-detect data/csv/sales_no_header.csv --fmt yaml --output-file schema_no_header.yml
+schema-detect data/csv/very_wide.csv --fmt yaml --output-file schema_wide.yml
+schema-detect data/csv/sales_utf8_sig.csv --fmt yaml --output-file schema_utf8.yml
+schema-detect data/orc/TestOrcFile.testDate1900.orc --fmt yaml --output-file schema_orc.yml
+schema-detect data/avro/weather.avro --fmt yaml --output-file schema_avro.yml
+schema-detect data/parquet/v0.7.1.all-named-index.parquet --fmt yaml --output-file schema_pqt.yml
+schema-detect data/delta/people_countries_delta_dask/ --fmt yaml --output-file schema_delta.yml
+schema-detect data/json/events.ndjson --fmt yaml --output-file schema_json.yml
+schema-detect data/xml/books.xml --fmt yaml --output-file schema_xml.yml
+
+schema-detect data/json/events.ndjson --fmt dict
+"""
+
 from pyschemaclassifier import detect_schema, write_schema
 
 def run_all():

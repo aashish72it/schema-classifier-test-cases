@@ -25,6 +25,6 @@ fields:
   nullable: false
   metadata: {}
 meta:
-  file_name: sales_20250101.csv
+  file_name: sales_20260101.csv
   file_name_regex: ^sales_\d{8}\.csv$
   file_name_pattern: sales_*.csv

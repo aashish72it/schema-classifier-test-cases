@@ -1,29 +1,17 @@
-{
-  "type": "struct",
-  "fields": [
-    {
-      "name": "book",
-      "type": "array<object>",
-      "nullable": false,
-      "metadata": {
-        "child_fields": [
-          {
-            "name": "id",
-            "type": "boolean",
-            "nullable": false
-          },
-          {
-            "name": "title",
-            "type": "string",
-            "nullable": false
-          }
-        ]
-      }
-    }
-  ],
-  "meta": {
-    "file_name": "books.xml",
-    "file_name_regex": "^books\\.xml$",
-    "file_name_pattern": "books.xml"
-  }
-}
+type: struct
+fields:
+- name: book
+  type: array<object>
+  nullable: false
+  metadata:
+    child_fields:
+    - name: id
+      type: boolean
+      nullable: false
+    - name: title
+      type: string
+      nullable: false
+meta:
+  file_name: books.xml
+  file_name_regex: ^books\.xml$
+  file_name_pattern: books.xml
